@@ -2,8 +2,7 @@
 
 ![Architecture](https://github.com/aniket-somwanshi/ai-based-quality-control/blob/master/Resources/architecture.jpeg)
 
-###### The aim is to improve the Qualty Control in manufacturing units. The proposed architecture considers serveral end points in order to assess the quality of the current batch in production. 
-###### The following feeder models are used for weighted probability estimation.
+###### The aim is to improve the Qualty Control in manufacturing units. The proposed architecture considers serveral end points in order to assess the quality of the current batch in production. The following feeder models are used for weighted probability estimation.
 
 ## Feeder Models
 ### Sensors Reliability
@@ -22,9 +21,13 @@ The <b> human_error_proba </b> is obtained from this model.
 This model analyses the composition, dimensions, structure of the product to ouput a probability of the batch being defective
  The <b> defect_proba </b> is obtained from this model.
 
-## Production Demand Forecasting
+## Final Estimation
 Now we have the 4 feeder model's weighted probablities of a batch being defective. But the threshold after which we should flag the batch to be "defective" or "go to go" is still unknown.
-We will decide the threshold using the demand of the production. If the demand is low, we can afford to flag a "less likely defective" product to be "defective", just to be safe, as we have the time, since the demand is lower. Conversely, if the demand is very high, we cannot afford to do the same, as we don't have the time to "re-process" the batches. 
+We will decide the threshold using the <b> demand of the production </b> If the demand is low, we can afford to flag a "less likely defective" product to be "defective", just to be safe, as we have the time, since the demand is lower. Conversely, if the demand is very high, we cannot afford to do the same, as we don't have the time to "re-process" the batches. 
+
+
 Thus, demand forecast helps decide the threshold after which we will flag the batch as "defective" or "go to go".
+
+
 
 Conclusively, we have utilized all the above factors & touchpoints to improve quality control using Artificial intelligence.
