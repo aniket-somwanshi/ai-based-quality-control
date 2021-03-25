@@ -1,3 +1,3 @@
 # Architecture
 
-!(https://github.com/aniket-somwanshi/ai-based-quality-control/blob/master/Resources/architecture.jpeg)
+![Architecture](https://github.com/aniket-somwanshi/ai-based-quality-control/blob/master/Resources/architecture.jpeg)
