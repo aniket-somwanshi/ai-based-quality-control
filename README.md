@@ -30,4 +30,4 @@ Thus, demand forecast helps decide the threshold after which we will flag the ba
 
 
 
-Conclusively, we have utilized all the above factors & touchpoints to improve quality control using Artificial intelligence.
+###### Conclusively, we have utilized all the above factors & touchpoints to improve quality control using Artificial intelligence.
